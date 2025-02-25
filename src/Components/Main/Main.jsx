@@ -27,7 +27,7 @@ const main = () => {
               </p>
               <p>How can I help mme today?</p>
             </div>
-            <div className="cards">
+            <div className="cards flex md:flex-row flex-col gap-5 ">
               <div className="card">
                 <p>Suggest beautiful place ro see on an upcoming road trip</p>
                 <img src={assets.compass_icon} alt="" />
@@ -59,7 +59,6 @@ const main = () => {
                   <hr />
                   <hr />
                   <hr />
-
                 </div>
               ) : (
                 <p dangerouslySetInnerHTML={{ __html: resultData }}></p>
